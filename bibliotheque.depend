@@ -2,17 +2,21 @@
 1584205420 source:d:\users\dc\desktop\c++ cnrs novembre 2021\projets\bibliotheque\main.cpp
 	<iostream>
 
-1639327499 source:d:\projets\bibliotheque\main.cpp
+1639329020 source:d:\projets\bibliotheque\main.cpp
 	<iostream>
 	"Livre.h"
+	"LivreClasse.h"
 
-1639327570 d:\projets\bibliotheque\livre.h
+1639329020 d:\projets\bibliotheque\livre.h
 	"Auteur.h"
 	"Categorie.h"
 
 1639327440 d:\projets\bibliotheque\auteur.h
 	<iostream>
 
-1639301813 d:\projets\bibliotheque\categorie.h
+1639329256 d:\projets\bibliotheque\categorie.h
 	<map>
+
+1639329166 d:\projets\bibliotheque\livreclasse.h
+	"Livre.h"
 

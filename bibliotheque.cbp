@@ -35,6 +35,7 @@
 		<Unit filename="Auteur.h" />
 		<Unit filename="Categorie.h" />
 		<Unit filename="Livre.h" />
+		<Unit filename="LivreClasse.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
