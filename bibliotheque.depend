@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1584205420 source:d:\users\dc\desktop\c++ cnrs novembre 2021\projets\bibliotheque\main.cpp
+	<iostream>
+
+1639327499 source:d:\projets\bibliotheque\main.cpp
+	<iostream>
+	"Livre.h"
+
+1639327570 d:\projets\bibliotheque\livre.h
+	"Auteur.h"
+	"Categorie.h"
+
+1639327440 d:\projets\bibliotheque\auteur.h
+	<iostream>
+
+1639301813 d:\projets\bibliotheque\categorie.h
+	<map>
+
