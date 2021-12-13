@@ -4,8 +4,15 @@
 class Auteur
 {
     std::string nom;
+    static int nb;
 public:
-    Auteur (std::string nom) : nom{nom} {}
+    Auteur (std::string nom) : nom{nom} { nb++;}
+    Auteur(const Auteur &a) {
+        nom = a.nom;
+        nb++;
+    }
+    ~Auteur() {nb--;}
+    static int getNb() {return nb;}
     std::string getNom()
     {
         return nom;
