@@ -20,7 +20,7 @@ public:
     bool operator==(const  LivreClasse & l)
     {
         if (this == & l) return true;
-        return Livre::operator==(l)
+        return (Livre)(*this) == (Livre)l
                && matiere == l.matiere && niveau == l.niveau;
     }
 };

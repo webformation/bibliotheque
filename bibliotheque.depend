@@ -29,3 +29,18 @@
 1645108544 d:\users\dc\desktop\bibliotheque\auteur.h
 	<iostream>
 
+1645109027 source:d:\users\dc\desktop\bibliotheque\main.cpp
+	<iostream>
+	"Livre.h"
+	"LivreClasse.h"
+
+1639411270 d:\users\dc\desktop\bibliotheque\livre.h
+	"Auteur.h"
+	"Categorie.h"
+
+1639329256 d:\users\dc\desktop\bibliotheque\categorie.h
+	<map>
+
+1645109722 d:\users\dc\desktop\bibliotheque\livreclasse.h
+	"Livre.h"
+
