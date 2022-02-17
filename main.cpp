@@ -30,5 +30,11 @@ int main()
     cout << lc1.getDescription() << endl;
     Livre * pl = & lc1;
     cout << pl->getDescription() << endl;
+    LivreClasse lc2{"Grammaire anglaise", "Langue", "Terminale"};
+    cout << boolalpha << (lc1== lc2) << endl;
+    LivreClasse lc3{"Grammaire allemande", "Langue", "Terminale"};
+    cout << boolalpha << (lc1== lc3) << endl;
+    LivreClasse lc4{"Grammaire anglaise", "Langue", "Terminale"};
+    cout << boolalpha << (lc1== lc4) << endl;
     return 0;
 }

@@ -17,6 +17,12 @@ public:
     {
         return Livre::getDescription() + "," + matiere + ", " + niveau;
     }
+    bool operator==(const  LivreClasse & l)
+    {
+        if (this == & l) return true;
+        return Livre::operator==(l)
+               && matiere == l.matiere && niveau == l.niveau;
+    }
 };
 
 #endif // LIVRECLASSE_H_INCLUDED
