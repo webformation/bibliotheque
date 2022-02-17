@@ -34,6 +34,7 @@
 		</Compiler>
 		<Unit filename="Auteur.cpp" />
 		<Unit filename="Auteur.h" />
+		<Unit filename="Bibliotheque.h" />
 		<Unit filename="Categorie.h" />
 		<Unit filename="Livre.h" />
 		<Unit filename="LivreClasse.h" />

@@ -23,24 +23,29 @@
 1639385235 source:d:\projets\bibliotheque\auteur.cpp
 	"Auteur.h"
 
-1645108544 source:d:\users\dc\desktop\bibliotheque\auteur.cpp
+1645110451 source:d:\users\dc\desktop\bibliotheque\auteur.cpp
 	"Auteur.h"
 
-1645108544 d:\users\dc\desktop\bibliotheque\auteur.h
+1645110828 d:\users\dc\desktop\bibliotheque\auteur.h
 	<iostream>
 
-1645109027 source:d:\users\dc\desktop\bibliotheque\main.cpp
+1645112062 source:d:\users\dc\desktop\bibliotheque\main.cpp
 	<iostream>
 	"Livre.h"
 	"LivreClasse.h"
+	"Bibliotheque.h"
 
-1639411270 d:\users\dc\desktop\bibliotheque\livre.h
+1645112369 d:\users\dc\desktop\bibliotheque\livre.h
 	"Auteur.h"
 	"Categorie.h"
 
 1639329256 d:\users\dc\desktop\bibliotheque\categorie.h
 	<map>
 
-1645109722 d:\users\dc\desktop\bibliotheque\livreclasse.h
+1645112369 d:\users\dc\desktop\bibliotheque\livreclasse.h
+	"Livre.h"
+
+1645112120 d:\users\dc\desktop\bibliotheque\bibliotheque.h
+	<vector>
 	"Livre.h"
 
