@@ -29,7 +29,7 @@
 1645110828 d:\users\dc\desktop\bibliotheque\auteur.h
 	<iostream>
 
-1645112062 source:d:\users\dc\desktop\bibliotheque\main.cpp
+1645115821 source:d:\users\dc\desktop\bibliotheque\main.cpp
 	<iostream>
 	"Livre.h"
 	"LivreClasse.h"
@@ -45,7 +45,8 @@
 1645112369 d:\users\dc\desktop\bibliotheque\livreclasse.h
 	"Livre.h"
 
-1645112120 d:\users\dc\desktop\bibliotheque\bibliotheque.h
+1645190272 d:\users\dc\desktop\bibliotheque\bibliotheque.h
 	<vector>
+	<algorithm>
 	"Livre.h"
 

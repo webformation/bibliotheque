@@ -18,6 +18,11 @@ int main()
     Bibliotheque b1;
     b1.ajoute(&l1);
     b1.ajoute(&lc3);
+    b1.ajoute(&lc2);
+    b1.ajoute(&l2);
+    b1.getDescriptions();
+    b1.supprime(&lc3);
+    cout << "-------------------" << endl;
     b1.getDescriptions();
     return 0;
 }
