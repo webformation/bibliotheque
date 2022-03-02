@@ -36,6 +36,9 @@
 		<Unit filename="Auteur.h" />
 		<Unit filename="Bibliotheque.h" />
 		<Unit filename="Categorie.h" />
+		<Unit filename="Empruntable.h">
+			<Option target="Debug" />
+		</Unit>
 		<Unit filename="Livre.h" />
 		<Unit filename="LivreClasse.h" />
 		<Unit filename="main.cpp" />
