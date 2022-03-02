@@ -1,6 +1,7 @@
 #ifndef LIVRECLASSE_H_INCLUDED
 #define LIVRECLASSE_H_INCLUDED
 #include "Livre.h"
+#include "Empruntable.h"
 
 class LivreClasse: public Livre
 {
@@ -24,5 +25,8 @@ public:
                && matiere == l.matiere && niveau == l.niveau;
     }
 };
-
+class LivreClasseEmpruntable : public LivreClasse, public Empruntable
+{
+    using LivreClasse::LivreClasse;
+};
 #endif // LIVRECLASSE_H_INCLUDED

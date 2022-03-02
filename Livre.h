@@ -3,6 +3,7 @@
 
 #include "Auteur.h"
 #include "Categorie.h"
+#include "Empruntable.h"
 #include <exception>
 
 class exceptLivre : public std::logic_error
@@ -46,5 +47,9 @@ public:
                && categorie == l.categorie
                && ((auteur == l.auteur)?true:(*auteur == *(l.auteur)));
     }
+};
+
+class LivreEmpruntable: public Livre, public Empruntable {
+    using Livre::Livre;
 };
 #endif // LIVRE_H_INCLUDED
