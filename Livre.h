@@ -16,10 +16,8 @@ class Livre
     Auteur * auteur = nullptr;
 public:
     Livre(std::string titre, Categorie categorie, Auteur a ) :
-        categorie {categorie}
+        Livre(titre, categorie)
     {
-        if (titre.length() == 0) throw exceptLivre("titre vide");
-        this->titre = titre;
         auteur = new Auteur{a};
     }
     Livre(std::string titre, Categorie categorie ) :
