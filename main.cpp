@@ -12,6 +12,9 @@ int main()
     try {
     Livre l10("", LCLASSE);
     }
+    catch (exceptLivre & e) {
+        cout << "titre incorrect : " << e.what() << endl;
+    }
     catch (exception & e) {
         cout << e.what() << endl;
     }
