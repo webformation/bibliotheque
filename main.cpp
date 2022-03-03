@@ -9,6 +9,12 @@ int main()
 {
 
     Livre l1("Vive le C++", LCLASSE);
+    try {
+    Livre l10("", LCLASSE);
+    }
+    catch (exception & e) {
+        cout << e.what() << endl;
+    }
     Livre l2("La Servante écarlate ", ROMAN,Auteur("Margaret Atwood"));
     Livre l3("La Servante écarlate ", ROMAN,Auteur("Margaret Atwood"));
     LivreClasse lc1{"Grammaire anglaise", "Langue", "Terminale"};

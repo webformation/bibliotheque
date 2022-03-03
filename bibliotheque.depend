@@ -50,3 +50,31 @@
 	<algorithm>
 	"Livre.h"
 
+1645110451 source:d:\exemples\c++\bibliotheque_2022_02\auteur.cpp
+	"Auteur.h"
+
+1645110828 d:\exemples\c++\bibliotheque_2022_02\auteur.h
+	<iostream>
+
+1646317946 source:d:\exemples\c++\bibliotheque_2022_02\main.cpp
+	<iostream>
+	"Livre.h"
+	"LivreClasse.h"
+	"Bibliotheque.h"
+
+1646318014 d:\exemples\c++\bibliotheque_2022_02\livre.h
+	"Auteur.h"
+	"Categorie.h"
+	<exception>
+
+1639329256 d:\exemples\c++\bibliotheque_2022_02\categorie.h
+	<map>
+
+1646317113 d:\exemples\c++\bibliotheque_2022_02\livreclasse.h
+	"Livre.h"
+
+1645190323 d:\exemples\c++\bibliotheque_2022_02\bibliotheque.h
+	<vector>
+	<algorithm>
+	"Livre.h"
+
