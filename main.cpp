@@ -1,4 +1,5 @@
 #include <iostream>
+#include <fstream>
 #include "Livre.h"
 #include "LivreClasse.h"
 #include "Bibliotheque.h"
@@ -30,6 +31,9 @@ int main()
     b1.ajoute(&lc2);
     b1.ajoute(&l2);
     b1.getDescriptions();
+    ofstream of ("liste.txt");
+    of << b1;
+    of.close();
     b1.supprime(&lc3);
     cout << "-------------------" << endl;
     b1.getDescriptions();

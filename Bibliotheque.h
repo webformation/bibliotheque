@@ -20,6 +20,7 @@ public:
             std::cout << l->getDescription() << std::endl;
         }
     }
+friend std::ostream & operator<<(std::ostream & o, Bibliotheque & b);
 };
 
 #endif // BIBLIOTHEQUE_H_INCLUDED
